@@ -14,6 +14,6 @@ public class MuyePlugin extends AbstractMojo {
     String describe;
 
     public void execute() throws MojoExecutionException, MojoFailureException {
-        getLog().info(String.format("luban sex = %s,describe = %s", sex, describe));
+        getLog().info(String.format("user sex = %s,describe = %s", sex, describe));
     }
 }
